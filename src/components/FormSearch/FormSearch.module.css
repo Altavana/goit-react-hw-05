@@ -1,0 +1,23 @@
+.searchInput {
+  height: 35px;
+  margin-left: 20px;
+  border: 1px solid #adb2d2;
+  border-radius: 4px;
+  width: 371px;
+  padding: auto 16px;
+  margin-right: 8px;
+  background-color: rgb(245, 245, 235);
+  outline: transparent;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+input::placeholder {
+  color: #9da4d4;
+}
+
+.searchInput:hover,
+.searchInput:focus {
+  border: 1px solid #969cc8;
+}
+.searchForm {
+  margin-bottom: 20px;
+}

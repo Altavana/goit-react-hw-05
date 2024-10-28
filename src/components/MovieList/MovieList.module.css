@@ -1,0 +1,15 @@
+.movieList {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+.item::marker {
+  color: #6c47c2;
+}
+.item {
+  font-size: 18px;
+  /* font-weight: 700;
+  color: #7125c9; */
+  /* color: #535794;
+   */
+}

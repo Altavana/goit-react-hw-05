@@ -1,0 +1,19 @@
+.active {
+  color: #5c3df5;
+}
+
+.wrapper {
+  border-radius: 4px;
+  background: linear-gradient(0deg, #c551f6, hsl(52, 89%, 81%), #f8d374);
+  margin-bottom: 10px;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  padding: 10px;
+  padding-left: 15px;
+  text-align: center;
+  font-size: 24px;
+}

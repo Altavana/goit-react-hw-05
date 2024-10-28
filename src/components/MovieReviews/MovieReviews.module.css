@@ -1,0 +1,15 @@
+.author {
+  font-size: 20px;
+  text-decoration: underline;
+  padding-left: 20px;
+}
+.reviewsText {
+  padding-top: 10px;
+}
+.reviews {
+  border: 1px solid #acb1cf;
+  background-color: #e0e0ed;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}

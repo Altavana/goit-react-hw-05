@@ -1,0 +1,6 @@
+.loaderWrapper {
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+  margin-left: 100px;
+}

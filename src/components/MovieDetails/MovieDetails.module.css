@@ -1,0 +1,29 @@
+.listGenres {
+  color: #4b2d90;
+  size: 14px;
+}
+.movieDetailWrapper {
+  display: flex;
+  gap: 10px;
+}
+.poster {
+  width: 350px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.movieWrapper {
+  display: flex;
+  gap: 20px;
+}
+.detailTitle {
+  font-size: 36px;
+}
+.detailTitle {
+  font-size: 36px;
+  color: #6236f1;
+}
+.score {
+  color: #643cc1;
+  margin-bottom: 10px;
+}
