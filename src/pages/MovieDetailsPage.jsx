@@ -61,10 +61,10 @@ const MovieDetailsPage = () => {
       <MovieDetails movie={movie} />
 
       <nav className={css.details2}>
-        <NavLink state={{ from: backUrl }} to="cast" className={css.detLink}>
+        <NavLink state={backUrl} to="cast" className={css.detLink}>
           Cast
         </NavLink>
-        <NavLink state={{ from: backUrl }} to="reviews" className={css.detLink}>
+        <NavLink state={backUrl} to="reviews" className={css.detLink}>
           Reviews
         </NavLink>
       </nav>
