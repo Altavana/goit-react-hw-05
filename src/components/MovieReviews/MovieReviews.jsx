@@ -4,7 +4,6 @@ import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import Loader from "../Loader/Loader";
 import { useParams } from "react-router-dom";
 import css from "./MovieReviews.module.css";
-import { nanoid } from "nanoid";
 
 const MovieReviews = () => {
   const [error, setError] = useState("");
@@ -41,14 +40,14 @@ const MovieReviews = () => {
   if (!reviews) {
     return null;
   }
-  const keyId = nanoid();
+
   return (
     <div>
       {error && <ErrorMessage message={error} />}
       {loader && <Loader />}
       <ul>
-        {reviews?.map((i, keyId) => (
-          <li key={keyId} className={css.reviews}>
+        {reviews?.map((i) => (
+          <li key={i.id} className={css.reviews}>
             <h3 className={css.author}> {i.author}</h3>
             <p className={css.reviewsText}>{i.content}</p>
           </li>

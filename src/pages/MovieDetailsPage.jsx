@@ -46,7 +46,7 @@ const MovieDetailsPage = () => {
     return null;
   }
 
-  const backUrl = location.state?.from || "/movies";
+  const backUrl = location.state ?? "/movies";
   const goBack = () => navigate(backUrl);
 
   return (
